@@ -1,0 +1,3 @@
+# Vendor: upstream HF PEFT reference file fetched via wget (not committed)
+vendor/dora.reference_hf_peft.py
+__pycache__/
