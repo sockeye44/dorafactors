@@ -5,7 +5,7 @@ column norms, fused Triton kernels with custom autograd, and automatic dispatch 
 PyTorch and Triton backends.
 
 From the paper: *Scaling DoRA: High-Rank Adaptation via Factored Norms and Fused Kernels*
-(arXiv preprint arXiv:XXXX.XXXXX, 2026).
+(arXiv preprint arXiv:2603.22276, 2026).
 
 ## Reproducing benchmark results
 
@@ -139,12 +139,13 @@ is not required at import time.
 ## Citation
 
 ```bibtex
-@article{zelenin2026dorafactors,
-  title         = {Scaling DoRA: High-Rank Adaptation via Factored Norms and Fused Kernels},
-  author        = {Zelenin, Alexandra and Zhuravlyova, Alexandra},
-  journal       = {arXiv preprint arXiv:XXXX.XXXXX},
-  eprint        = {XXXX.XXXXX},
-  archivePrefix = {arXiv},
-  year          = {2026}
+@misc{zelenin2026scalingdorahighrankadaptation,
+      title={Scaling DoRA: High-Rank Adaptation via Factored Norms and Fused Kernels}, 
+      author={Alexandra Zelenin and Alexandra Zhuravlyova},
+      year={2026},
+      eprint={2603.22276},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2603.22276}, 
 }
 ```
